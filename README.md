@@ -50,3 +50,19 @@
 ![image](screenshots/1.gif)
 
 图中的仿微信进度条使用的是：[LQRRecordProgress](https://github.com/GitLqr/LQRRecordProgress "仿微信小视频进度条")
+
+
+#### 相信自己，没有做不到的，只有想不到的
+ 如果你觉得此文对您有所帮助，欢迎入群 QQ交流群 ：644196190
+微信公众号：终端研发部
+
+公众号：「终端研发部」谈的是技术，产品，更是我们的人生，做一个最有味道的互联网开发者，每天八点准时推送，替您从海量同类文章中筛选出高质量文章。
+
+6年Android开发大神，决心做更有成就感的事情，于是有这个公众号，愿景打造个人的Python第一公众号。让小白也能成为Python大神! 涵盖Python基础，爬虫，数据分析，大数据，人工智能！ 关注公众号即可获得5T的学习资料！
+
+一条执着于技术+职场经验之路，从人工智能，Android，FFmpeg音视频解码，前端开发及微信小程序，同时覆盖涵盖Python基础，爬虫。公众号：「终端研发部」谈的是技术，是产品，更是我们的人生！
+
+
+
+
+![技术+职场](http://upload-images.jianshu.io/upload_images/4614633-8af7afbca8ae9de9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

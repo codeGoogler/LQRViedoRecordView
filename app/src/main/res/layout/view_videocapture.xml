@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videocapture_container_rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true" >
+
+    <SurfaceView
+        android:id="@+id/videocapture_preview_sv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/videocapture_preview_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/videocapture_recordbtn_iv"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="-20dp"
+        android:background="@drawable/states_btn_capture"
+        android:clickable="true" />
+
+    <ImageView
+        android:id="@+id/videocapture_acceptbtn_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_above="@id/videocapture_recordbtn_iv"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/states_btn_acceptdecline"
+        android:clickable="true"
+        android:padding="8dp"
+        android:src="@drawable/btn_accept"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/videocapture_declinebtn_iv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/videocapture_recordbtn_iv"
+        android:layout_centerVertical="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/states_btn_acceptdecline"
+        android:clickable="true"
+        android:padding="8dp"
+        android:src="@drawable/btn_decline"
+        android:visibility="gone" />
+   <Chronometer
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="录音时间还剩:30秒"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="8dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ccffffff" 
+            android:background="#00000000"
+            android:textSize="24sp"/>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LQRViedoRecordView</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="status_nocapture">nothing captured yet</string>
+
+    <string name="status_capturesuccess">Capture successful: %s</string>
+
+    <string name="status_capturecancelled">Capture cancelled by user</string>
+
+    <string name="status_capturefailed">Capture failed</string>
+
+</resources>
